@@ -1,0 +1,35 @@
+.nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.nav-li{
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 25px;
+    list-style: none;
+    gap: 1.3rem;
+}
+
+.logo {
+font-size: 1.8rem;
+}
+
+.sign-bar{
+    display: flex;
+}
+
+.sign-btn{
+    background: #FF4820;
+border-radius: 5px;
+font-size: 1rem;
+padding: 10%;
+}
+
+a{
+    text-decoration: none;
+    font-size:1.3rem;
+}
