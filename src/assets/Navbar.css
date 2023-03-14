@@ -20,16 +20,25 @@ font-size: 1.8rem;
 
 .sign-bar{
     display: flex;
+    gap: 7%;
+    width: 20%;
+    align-items: center;
 }
 
 .sign-btn{
     background: #FF4820;
-border-radius: 5px;
+    border: 0;
+border-radius: 9px;
 font-size: 1rem;
-padding: 10%;
+padding: 7%;
 }
 
 a{
     text-decoration: none;
     font-size:1.3rem;
+}
+
+
+@media  (max-width: 860px) {
+    
 }
