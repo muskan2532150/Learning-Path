@@ -2,7 +2,7 @@
   font-family: 'Manrope';
   line-height: 1.5;
   font-weight: 400;
-  background: #002853;
+  background-image: linear-gradient(to right,#002853,#040C18);
   /* filter: blur(282px); */
 
   color-scheme: light dark;
