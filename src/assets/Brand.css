@@ -1,0 +1,12 @@
+.brand ul{
+    display: flex;
+    list-style: none;
+    gap: 2%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.brand img {
+    height: 4vh;
+}
