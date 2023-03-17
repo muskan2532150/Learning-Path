@@ -1,0 +1,78 @@
+.gpt-intro {
+    width: 70%;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    background: linear-gradient(to right bottom, #284766, 90%, #1B78DE)
+}
+
+.sec-one,
+.sec-two,
+.sec-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-one h4 {
+    padding-top: 6px;
+    border-image-source: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    border-top: 2px solid;
+    border-image-slice: 1;
+}
+
+.sec-one p {
+    width: 50%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #81AFDD;
+}
+
+.sec-two {
+    padding-top: 2rem;
+}
+
+.sec-two p {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    width: 50%;
+    text-align: start;
+    margin: 0;
+}
+
+.sec-two a {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 30px;
+    color: #FF8A71;
+}
+
+.sec-three h6{
+    font-weight: 800;
+font-size: 24px;
+letter-spacing: -0.04em;
+color: #FFFFFF;
+width: 50%;
+margin-bottom: 30px;
+text-align: start;
+border-bottom: 2px solid;
+border-image-slice: 1;
+border-image-source: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+}
+
+.sec-three p {
+    font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+text-align: start;
+margin-top: 0;
+color: #81AFDD;
+}
