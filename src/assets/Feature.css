@@ -1,0 +1,60 @@
+.feature-1{
+    margin-top: 10rem;
+}
+
+.feature-1,
+.feature-sub{
+    display: flex;
+}
+
+.feature-1 > div {
+    width: 50%;
+    text-align: start;
+}
+
+.feature-1> div:last-child{
+     display: flex;
+     flex-direction: column;
+     width: 60%;
+}
+
+.feature-heading p{
+    width: 70%;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 0;
+}
+
+.feature-heading p:last-child {
+font-size: 20px;
+font-weight: 500;
+font-size: 1rem;
+line-height: 24px;
+color: #81AFDD;
+}
+
+.feature-sub{
+    justify-content: space-between;
+}
+
+.feature-sub p:first-child {
+    width: 30%;
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    border-top: 2px solid;
+    padding-top: 2%;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+}
+
+.feature-sub p:last-child {
+    width: 50%;
+}
