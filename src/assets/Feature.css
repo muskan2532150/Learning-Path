@@ -18,7 +18,8 @@
      width: 60%;
 }
 
-.feature-heading p{
+.feature-heading p,
+.feature2-p2{
     width: 70%;
     font-weight: 800;
     font-size: 34px;
@@ -30,7 +31,10 @@
     margin-top: 0;
 }
 
-.feature-heading p:last-child {
+.feature-heading p:last-child,
+.feature-body,
+.feature2-p1,
+.feature2-p4 {
 font-size: 20px;
 font-weight: 500;
 font-size: 1rem;
@@ -42,7 +46,7 @@ color: #81AFDD;
     justify-content: space-between;
 }
 
-.feature-sub p:first-child {
+.feature-sub p:first-child{
     width: 30%;
     font-weight: 800;
     font-size: 1.2rem;
@@ -57,4 +61,20 @@ color: #81AFDD;
 
 .feature-sub p:last-child {
     width: 50%;
+}
+
+.feature-2{
+    padding: 2rem;
+}
+
+img{
+    width: 100%;
+}
+
+.feature2-p1{
+color: #71E5FF;
+}
+
+.feature2-p4{
+color: #FF8A71;
 }
