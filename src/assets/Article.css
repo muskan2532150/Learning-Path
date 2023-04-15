@@ -1,0 +1,17 @@
+.article{
+    background: #042C54;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.article-img{
+    height: 100%;
+    width: 100%;
+}
+/* 
+@media screen and (max-width:780px) {
+    .article{
+    }
+} */
