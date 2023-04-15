@@ -1,11 +1,12 @@
 import React from 'react'
-import Article from '../component/Article'
+import Article from '../component/Article';
+import '../assets/Blog.css'
 
 const Blog = () => {
   return (
-    <section>
-      <div>
-        <h4 className='blog-header'> A lot is happening,We are blogging about it.</h4>
+    <section className='blog'>
+      <div className='blog-header'>
+        <h4 className='blog-header-p' > A lot is happening,We are blogging about it.</h4>
       </div>
       <Article/>
     </section>
