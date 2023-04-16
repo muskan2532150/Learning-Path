@@ -32,7 +32,7 @@ const Article = () => {
   }]
 
   return (
-    <>
+    <div className='article-container'>
       {articles.map((item, index) => (
         <div className='article' key={index}>
           <div className='article-img'>
@@ -46,7 +46,7 @@ const Article = () => {
         </div>
 
       ))}
-    </>
+    </div>
   )
 }
 
