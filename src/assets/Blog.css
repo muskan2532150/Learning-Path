@@ -1,0 +1,20 @@
+.blog{
+    padding: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-header{
+    text-align: left;
+    width: 100%;
+}
+
+.blog-header-p{
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
