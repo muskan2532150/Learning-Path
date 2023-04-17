@@ -1,4 +1,18 @@
 #root {
-  padding: 2rem;
   text-align: center;
+}
+
+.base-margin{
+ margin: 4rem 2rem;
+}
+
+.base-padding{
+  padding: 2rem;
+}
+
+.text-color{
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }

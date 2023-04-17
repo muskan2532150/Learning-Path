@@ -23,33 +23,33 @@ const Feature = () => {
 
   return (
     <>
-    <div className='feature-1'>
-      <div className='feature-heading'>
-        <p>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</p>
-        <p>Request Early Access to Get Started</p>
-      </div>
-      <div>
-        {feature.map((item, index) => (
-          <div className='feature-sub' key={index}>
-            <p>{item.title} </p>
-            <p>{item.info}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-
-    <div className="feature-1">
-      <div className="feature-heading">
-      <img src="../images/Feature-image.png" alt="" className="feature-img" />
-      </div>
-      <div className='feature-2'>
-        <p className='feature2-p1'>Request Early Access to Get Started</p>
-        <p className='feature2-p2'>Request Early Access to Get Started</p>
-        <p className='feature-body'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-<p className='feature2-p4'>Request Early Access to Get Started</p>
+      <div className='feature-1'>
+        <div className='feature-heading'>
+          <p className='text-color'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</p>
+          <p className='text-color'>Request Early Access to Get Started</p>
+        </div>
+        <div>
+          {feature.map((item, index) => (
+            <div className='feature-sub' key={index}>
+              <p>{item.title} </p>
+              <p>{item.info}</p>
+            </div>
+          ))}
+        </div>
       </div>
 
-    </div>
+      <div className="feature-1 feature-part-two">
+        <div className="feature-heading">
+          <img src="../images/Feature-image.png" alt="" className="feature-img" />
+        </div>
+        <div className='feature-2'>
+          <p className='feature2-p1'>Request Early Access to Get Started</p>
+          <p className='feature2-p2 text-color'>Request Early Access to Get Started</p>
+          <p className='feature-body'>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+          <p className='feature2-p4'>Request Early Access to Get Started</p>
+        </div>
+
+      </div>
     </>
   )
 }
