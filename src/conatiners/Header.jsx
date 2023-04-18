@@ -3,7 +3,7 @@ import '../assets/Header.css'
 
 const Header = () => {
   return (
-    <section className='header base-margin'>
+    <section className='header base-margin d-flex'>
       <div className='intro'>
         <h1 className="heading text-color">
           Let’s Build Something
@@ -15,7 +15,7 @@ const Header = () => {
           Indulgence way everything joy alteration boisterous the attachment.
           Party we years to order allow asked of.
         </p>
-        <div className="intro-form">
+        <div className="intro-form d-flex">
           <input type="email" placeholder='YOUR EMAIL ADDRESS' />
           <button className="intro-form-btn" >Get Started</button>
         </div>

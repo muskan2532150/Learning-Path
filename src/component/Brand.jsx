@@ -4,7 +4,7 @@ import '../assets/Brand.css'
 const Brand = () => {
   return (
     <div className='brand'>
-      <ul>
+      <ul className='d-flex'>
         <li><img src="images/google.png" alt="google" /></li>
         <li><img src="images/slack.png" alt="slack" /></li>
         <li><img src="images/dropbox.png" alt="dropbox" /></li>

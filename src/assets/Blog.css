@@ -1,6 +1,4 @@
 .blog{
-    padding: 4rem 6rem;
-    display: flex;
     flex-direction: column;
 }
 

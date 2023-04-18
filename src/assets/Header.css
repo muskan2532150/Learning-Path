@@ -1,10 +1,5 @@
-.header {
-    display: flex;
-}
-
 .intro {
     padding: 0.4rem 2rem;
-    /* width: 50%; */
 }
 
 .heading {
@@ -22,10 +17,6 @@
     line-height: 27px;
     color: #81AFDD;
     text-align: start;
-}
-
-.intro-form {
-    display: flex;
 }
 
 .intro-form input {
@@ -57,22 +48,18 @@
     line-height: 27px;
 }
 
-.intro-img{
+.intro-img {
     display: flex;
-    /* flex: 1 1; */
-    /* align-items: center; */
-    width: 100%;
     justify-content: center;
 }
 
 @media (max-width: 911px) {
-.header{
-    flex-direction: column;
-}
+    .header {
+        flex-direction: column;
+    }
 
-.intro{
-    /* width: 100%; */
-    padding-bottom:4rem;
-}
+    .intro {
+        padding-bottom: 4rem;
+    }
 
 }
