@@ -9,13 +9,6 @@ const Navbar = () => {
    setToggle(!toggle);
   }
 
-  const closeMenuHandler = () =>{
-    document.querySelector('.nav-li').display="none";
-    document.querySelector(".sign-bar-menu").display="none";
-    setToggle(!toggle);
-   }
- 
-
   return (
     <div className='nav'>
       <h1 className="logo">GPT-3</h1>

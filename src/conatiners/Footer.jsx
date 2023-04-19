@@ -3,34 +3,34 @@ import '../assets/Footer.css'
 
 const Footer = () => {
   return (
-      <div className="footer base-padding">
+      <div className="footer base-padding d-flex">
         <div className="footer-heading">
           <h1 className="footer-heading-h1 text-color">Do you want to step in to the future before others</h1>
         </div>
 
-        <div className="footer-btn">
+        <div className="footer-btn d-flex">
           <p>Request Early Access</p>
         </div>
 
-        <div className="footer-links">
-          <div className="footer-links_logo">
+        <div className="footer-links d-flex">
+          <div className="footer-links_logo d-flex">
             <img src='images/logo.svg' alt="logo" />
             <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
           </div>
-          <div className="footer-links_div">
+          <div className="footer-links_div d-flex">
             <h4>Links</h4>
             <p>Overons</p>
             <p>Social Media</p>
             <p>Counters</p>
             <p>Contact</p>
           </div>
-          <div className="footer-links_div">
+          <div className="footer-links_div d-flex">
             <h4>Company</h4>
             <p>Terms & Conditions </p>
             <p>Privacy Policy</p>
             <p>Contact</p>
           </div>
-          <div className="footer-links_div">
+          <div className="footer-links_div d-flex">
             <h4>Get in touch</h4>
             <p>Crechterwoord K12 182 DK Alknjkcb</p>
             <p>085-132567</p>

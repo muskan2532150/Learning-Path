@@ -3,7 +3,7 @@ import '../assets/Cta.css'
 
 const Cta = () => {
   return (
-    <div className='cta base-margin'>
+    <div className='cta base-margin d-flex'>
     <div className='cta-body'>
       <p>Request Early Access to Get Started</p>
       <p>Register today & start exploring the endless possiblities.</p>
