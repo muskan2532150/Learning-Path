@@ -1,11 +1,11 @@
 .nav {
-    display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 2rem;
+    padding-top: 2rem;
 }
 
 .nav-container {
-    display: flex;
     justify-content: space-between;
     width: 90%;
 }
@@ -20,11 +20,10 @@
 }
 
 .logo {
-    font-size: 1.8rem;
+    width: 40%;
 }
 
 .sign-bar {
-    display: flex;
     gap: 7%;
     width: 20%;
     align-items: center;

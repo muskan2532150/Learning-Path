@@ -10,9 +10,9 @@ const Navbar = () => {
   }
 
   return (
-    <div className='nav'>
-      <h1 className="logo">GPT-3</h1>
-      <div className='nav-container'>
+    <div className='nav d-flex'>
+      <img className="logo" src='images/logo.svg'/>
+      <div className='nav-container d-flex'>
         <ul className='nav-li d-flex'>
           <li><a href="#home">Home</a></li>
           <li><a href="#gpt-intro">What is GPT3?</a></li>
@@ -21,7 +21,7 @@ const Navbar = () => {
           <li><a href="#blog">Library</a></li>
         </ul>
       </div>
-      <div className="sign-bar">
+      <div className="sign-bar d-flex">
         <a href="#">Sign in</a>
         <button className="sign-btn">Sign Up</button>
       </div>

@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <section className='gpt-intro base-margin d-flex' id='#gpt-intro'>
       <div className="sec-one d-flex">
-        <h4 className='color-border'>What is GPT-4</h4>
+        <h4 className='color-border'>What is GPT-3</h4>
         <p>
           We so opinion friends me message as delight. Whole front do of plate heard oh ought.
           His defective nor convinced residence own. Connection has put impossible own apartments boisterous.
