@@ -1,7 +1,4 @@
 .gpt-intro {
-    /* margin: auto; */
-    /* margin-top: 4%; */
-    display: flex;
     flex-direction: column;
     padding: 3%;
     background: linear-gradient(to right bottom, #284766, 90%, #1B78DE)
@@ -10,15 +7,11 @@
 .sec-one,
 .sec-two,
 .sec-three {
-    display: flex;
     justify-content: space-between;
 }
 
 .sec-one h4 {
     padding-top: 6px;
-    border-image-source: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
-    border-top: 2px solid;
-    border-image-slice: 1;
 }
 
 .sec-one p {
@@ -38,10 +31,6 @@
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
-    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
     width: 50%;
     text-align: start;
     margin: 0;
@@ -62,9 +51,6 @@
     width: 50%;
     margin-bottom: 30px;
     text-align: start;
-    border-bottom: 2px solid;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
 }
 
 .sec-three p {
@@ -75,5 +61,34 @@
     margin-top: 0;
     color: #81AFDD;
     width: 80%;
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .sec-one, .sec-three {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .sec-one, .sec-three div {
+        margin-top: 0.5rem;
+    }
+
+    .sec-one p,.sec-three div p{
+        width: auto;
+    }
+
+    .sec-two p {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .sec-three, .sec-one {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
 }
 

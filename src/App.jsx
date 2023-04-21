@@ -1,10 +1,23 @@
 import { useState } from 'react'
 import './App.css'
+import {Navbar, Brand , Cta} from './component/Import'
+import {Blog , Intro ,Possibility,Features,Footer,Header } from './conatiners/Import'
+
 
 function App() {
 
   return (
-    <h1>Hello</h1>
+    <div>
+    <Navbar/>
+    <Header/>
+    <Brand/>
+    <Intro/>
+    <Features/>
+    <Possibility/>
+    <Cta/>
+    <Blog/>
+    <Footer/>
+    </div>
   )
 }
 
