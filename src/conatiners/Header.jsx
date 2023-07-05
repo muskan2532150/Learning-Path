@@ -3,9 +3,9 @@ import '../assets/Header.css'
 
 const Header = () => {
   return (
-    <section className='header'>
+    <section className='header base-margin'>
       <div className='intro'>
-        <h1 className="heading">
+        <h1 className="heading text-color">
           Let’s Build Something
           amazing with GPT-3
           OpenAI

@@ -24,10 +24,6 @@
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
-    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
     margin-top: 0;
 }
 
@@ -77,4 +73,10 @@ color: #71E5FF;
 
 .feature2-p4{
 color: #FF8A71;
+}
+
+@media (max-width: 911px) {
+.feature-part-two{
+    flex-direction: column-reverse;
+    }
 }

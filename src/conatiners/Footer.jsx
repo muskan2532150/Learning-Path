@@ -3,9 +3,9 @@ import '../assets/Footer.css'
 
 const Footer = () => {
   return (
-      <div className="footer">
+      <div className="footer base-padding">
         <div className="footer-heading">
-          <h1 className="footer-heading-h1">Do you want to step in to the future before others</h1>
+          <h1 className="footer-heading-h1 text-color">Do you want to step in to the future before others</h1>
         </div>
 
         <div className="footer-btn">

@@ -3,7 +3,7 @@ import Feature from '../component/Feature'
 
 const Features = () => {
   return (
-    <div>
+    <div id='#features' className='base-margin'>
       <Feature/>
     </div>
   )

@@ -4,7 +4,7 @@
 
 .intro {
     padding: 0.4rem 2rem;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .heading {
@@ -14,10 +14,6 @@
     padding-top: 3rem;
     line-height: 3.9rem;
     letter-spacing: -0.04em;
-    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .intro p {
@@ -59,4 +55,24 @@
     border: 0;
     font-size: 20px;
     line-height: 27px;
+}
+
+.intro-img{
+    display: flex;
+    /* flex: 1 1; */
+    /* align-items: center; */
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width: 911px) {
+.header{
+    flex-direction: column;
+}
+
+.intro{
+    /* width: 100%; */
+    padding-bottom:4rem;
+}
+
 }

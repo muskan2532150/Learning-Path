@@ -4,9 +4,9 @@ import '../assets/Blog.css'
 
 const Blog = () => {
   return (
-    <section className='blog'>
+    <section className='blog base-margin' id='#blog'>
       <div className='blog-header'>
-        <h4 className='blog-header-p' > A lot is happening,We are blogging about it.</h4>
+        <h4 className='blog-header-p text-color' > A lot is happening,We are blogging about it.</h4>
       </div>
       <Article/>
     </section>
