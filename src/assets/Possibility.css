@@ -1,0 +1,26 @@
+.possibility {
+    margin-top: 7rem;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.possibility-body {
+    padding: 2rem;
+}
+
+.possibility-body-p1 {
+    color: #71E5FF;
+}
+
+.possibility-body-p4  {
+    color: #FF8A71;
+}
+
+
+@media screen and (max-width: 650px) {
+    .possibility {
+        flex-direction: column-reverse;
+    }
+}

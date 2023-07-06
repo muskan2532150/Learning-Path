@@ -1,0 +1,24 @@
+.article-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.article {
+    background: #042C54;
+    height: 100%;
+    width: 40%;
+    margin: 0 2rem 2rem;
+}
+
+.article-img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:911px) {
+    .article {
+        width: 100%;
+    }
+
+}

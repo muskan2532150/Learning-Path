@@ -1,0 +1,14 @@
+.blog{
+    flex-direction: column;
+}
+
+.blog-header{
+    text-align: left;
+    width: 100%;
+}
+
+.blog-header-p{
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+}
